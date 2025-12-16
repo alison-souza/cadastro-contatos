@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerenciador de Contatos</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="../icons/favicon.png" />
+  </head>
+  <body>
+    <h1>Gerenciador de Contatos</h1>
+
+    <section id="form-section">
+      <h2>Adicionar Contato</h2>
+      <form id="addContactForm">
+        <input type="text" id="nome" placeholder="Nome" required />
+        <input type="email" id="email" placeholder="Email" required />
+        <input type="tel" id="telefone" placeholder="Telefone" required />
+        <button type="submit">Adicionar</button>
+      </form>
+    </section>
+
+    <section id="contacts-section">
+      <h2>Lista de Contatos</h2>
+      <button id="exportBtn">Exportar para Excel</button>
+      <p id="contatosCount">Número de contatos: 0</p>
+      <table id="contactTable">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>Telefone</th>
+            <th>Ações</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <script src="script.js"></script>
+    <footer>
+      <p>Gerenciador de Contatos &copy; 2025 | Desenvolvido por Alison Souza</p>
+    </footer>
+  </body>
+</html>
