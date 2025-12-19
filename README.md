@@ -4,10 +4,15 @@ Um sistema completo de gerenciamento de contatos (CRUD) com interface web e serv
 
 ---
 
+<img width="1917" height="929" alt="Screenshot_1" src="https://github.com/user-attachments/assets/05a0061c-1cdc-4dcb-883b-6d983e1145bc" />
+
+---
+
 ## 🚀 Funcionalidades
 
 - **CRUD Completo:** Adição, leitura, atualização e exclusão de contatos.
-- **📥 Exportação de Dados:** Permite **baixar a lista de contatos** diretamente para o formato Excel (.xls) com apenas um clique.
+- **📥 Exportação de Dados:** Permite **baixar a lista de contatos
+** diretamente para o formato Excel (.xls) com apenas um clique.
 - **Persistência Local:** Utiliza o sistema de arquivos do Node (`fs`) para salvar dados em um arquivo `contatos.json`.
 - **Interface Dark Mode:** Design moderno e responsivo focado em usabilidade.
 - **Contador em Tempo Real:** Exibição dinâmica da quantidade de contatos cadastrados.
